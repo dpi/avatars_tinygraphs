@@ -22,6 +22,7 @@ class AvatarsTinygraphsAvatarServicePluginInfoAlter implements EventSubscriberIn
     // Avatar Kit service plugin manager will pick up common services simply by
     // making these services use a real class instead of an abstract.
     $definitions = $event->getDefinitions();
+    $definitions['avatars_ak_common:tinygraphs_isogrids']['class'] = Tinygraphs::class;
     $event->setDefinitions($definitions);
   }
 

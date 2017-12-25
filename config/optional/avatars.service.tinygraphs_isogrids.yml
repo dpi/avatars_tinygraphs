@@ -1,0 +1,5 @@
+status: true
+dependencies: {  }
+id: tinygraphs_isogrids
+label: Isogrids
+plugin: 'avatars_ak_common:tinygraphs_isogrids'
