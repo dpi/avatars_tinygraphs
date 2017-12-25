@@ -1,0 +1,5 @@
+status: true
+dependencies: {  }
+id: tinygraphs_square
+label: Square
+plugin: 'avatars_ak_common:tinygraphs_square'

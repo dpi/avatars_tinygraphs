@@ -23,6 +23,7 @@ class AvatarsTinygraphsAvatarServicePluginInfoAlter implements EventSubscriberIn
     // making these services use a real class instead of an abstract.
     $definitions = $event->getDefinitions();
     $definitions['avatars_ak_common:tinygraphs_isogrids']['class'] = Tinygraphs::class;
+    $definitions['avatars_ak_common:tinygraphs_square']['class'] = Tinygraphs::class;
     $event->setDefinitions($definitions);
   }
 
