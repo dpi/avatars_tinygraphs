@@ -3,3 +3,7 @@ dependencies: {  }
 id: tinygraphs_square
 label: Square
 plugin: 'avatars_ak_common:tinygraphs_square'
+settings:
+  width: null
+  height: null
+  protocol: http
