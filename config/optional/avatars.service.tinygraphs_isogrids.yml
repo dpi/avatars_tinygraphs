@@ -1,5 +1,7 @@
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - avatars_tinygraphs
 id: tinygraphs_isogrids
 label: Isogrids
 plugin: 'avatars_ak_common:tinygraphs_isogrids'
